@@ -8,7 +8,6 @@ import org.springframework.context.annotation.Bean;
 public class MeetGreetAppApplication {
 
 	public static void main(String[] args) {
-		//fix isse
 		SpringApplication.run(MeetGreetAppApplication.class, args);
 	}
 
@@ -16,5 +15,4 @@ public class MeetGreetAppApplication {
 	public org.modelmapper.ModelMapper modelMapper() {
 		return new org.modelmapper.ModelMapper();
 	}
-	
 }
